@@ -19,11 +19,13 @@ How to run:
 2. input "npm install" without the quote mark in the terminal working in the cloned repo directory,
 3. edit your database credentials in config/config.json,
 4. input "sequelize db:migrate", without the quotation mark, and make sure your nysql server is running,
-5. input "npm start", the server will listen to your localhost on port 3000
+5. input "npm start", the server will listen to your localhost on port 3000.
 
 
 API files created and used in this project:
 
-1. routes/surveys.js
-2. routes/questions.js
-3. routes/submissions.js
+1. routes/surveys.js,
+2. routes/questions.js,
+3. routes/submissions.js.
+
+I have added my development database just in case in /db_dump .
